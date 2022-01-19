@@ -1,6 +1,6 @@
-import styled from 'styled-components'
-import {Link as LinkRouter} from 'react-router-dom'
-import {Link as LinkScroll} from 'react-scroll'
+import styled from 'styled-components';
+import {Link as LinkRouter} from 'react-router-dom';
+import {Link as LinkScroll} from 'react-scroll';
 
 export const Nav = styled.nav`
     background: #000000;
@@ -103,7 +103,7 @@ export const NavBtnLink = styled(LinkRouter)`
     background: #01bf71;
     color: #010606;
     text-decoration: none;
-    white-space: no-wrap;
+    white-space: nowrap;
     padding: 10px 22px;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
